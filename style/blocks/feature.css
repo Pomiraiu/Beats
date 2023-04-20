@@ -1,0 +1,13 @@
+.feature {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 114px;
+  max-height: 36px;
+}
+
+.feature__icon {
+  height: 41px;
+  width: 41px;
+  margin-right: 11px;
+}

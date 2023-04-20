@@ -1,0 +1,31 @@
+$baseFontSize: 16px;
+$containerWidth:940px;
+
+// colors
+$gray: #F8FAF9;
+$red: #E01F3D;
+$light_gray: #666666;
+$black: #292929;
+
+$z-fixed-menu: 100
+
+// normilize
+@import url(https://necolas.github.io/normalize.css/8.0.1/normalize.css);
+
+//setups
+
+@import url(https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap);
+@import "layout.scss";
+
+//blocks
+@import "blocks/hero.scss";
+@import "blocks/header.scss";
+@import "blocks/features.scss";
+@import "blocks/feature.scss";
+@import "blocks/benefits.scss";
+@import "blocks/benefit.scss";
+@import "blocks/reviews.scss";
+@import "blocks/interactive-avatar.scss";
+@import "blocks/form.scss";
+@import "blocks/radio.scss";
+@import "blocks/fixed-menu.scss";
