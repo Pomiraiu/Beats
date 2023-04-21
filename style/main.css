@@ -68,6 +68,10 @@ a {
   color: inherit;
 }
 
+a:hover {
+  color:#E03F3D;
+}
+
 img {
   display: block;
   max-width: 100%;
@@ -87,6 +91,7 @@ img {
 }
 .btn:hover {
   background-color: #CA1B36;
+  color: #fff;
 }
 .btn--invisible {
   background: transparent;
