@@ -1,5 +1,5 @@
 .headline__title{
-    margin-bottom: 18px;
+    margin-bottom: rem(18px);
 }
 
 .headline{
@@ -8,11 +8,19 @@
 
 .headline__subtitle{
     padding: 0 20%;
-    margin-bottom: 62px;
+    margin-bottom: rem(62px);
+
+    @include phones{
+        padding: 0 5%;
+    }
 }
 
 .benefits{
     display: flex;
+
+    @include phones{
+        flex-direction: column;
+    }
 }
 
 .benefits__item{
@@ -20,12 +28,21 @@
     padding: 0 3%;
     position: relative;
 
+    @include phones{
+        padding: 0;
+        margin-bottom: rem(18px);
+    }
+
     &::before{
         content: url(../../img/Combined\ shape\ 2204.png);
         position: absolute;
-        top: 50px;
+        top: rem(50px);
         right: 0;
         transform: translate( 50%);
+
+        @include phones{
+            display: none;
+        }
     }
 
     &:first-child{

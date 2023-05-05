@@ -1,23 +1,29 @@
 $baseFontSize: 16px;
 $containerWidth:940px;
 
+//breakpoints
+
+$tablets:768px;
+$phones:480px;
+
 // colors
 $gray: #F8FAF9;
 $red: #E01F3D;
 $light_gray: #666666;
 $black: #292929;
 
-$z-fixed-menu: 100
+$z-fixed-menu: 100;
 
 // normilize
 @import url(https://necolas.github.io/normalize.css/8.0.1/normalize.css);
 
 //setups
-
+@import "media.scss";
 @import url(https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap);
 @import "layout.scss";
 
 //blocks
+@import "blocks/hamburger.scss";
 @import "blocks/hero.scss";
 @import "blocks/header.scss";
 @import "blocks/features.scss";
@@ -29,3 +35,4 @@ $z-fixed-menu: 100
 @import "blocks/form.scss";
 @import "blocks/radio.scss";
 @import "blocks/fixed-menu.scss";
+@import "blocks/footer.scss";

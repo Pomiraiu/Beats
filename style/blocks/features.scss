@@ -3,7 +3,7 @@
 }
 
 .feature__item{
-    margin-right: 20px;
+    margin-right: rem(20px);
     &:last-child{
         margin-right: 0;
     }

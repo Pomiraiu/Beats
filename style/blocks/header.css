@@ -17,7 +17,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 50px;
+  margin-bottom: rem(50px);
 }
 
 .menu__link {
@@ -25,14 +25,14 @@
 }
 
 .menu__item {
-  margin-right: 27px;
+  margin-right: rem(27px);
 }
 .menu__item:last-child {
-  margin-right: 0px;
+  margin-right: rem(0px);
 }
 
 .phone-number {
-  font-size: 18px;
+  font-size: rem(18px);
   text-decoration: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -40,15 +40,15 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 50px;
+  margin-bottom: rem(50px);
 }
 
 .phone-number__icon-elem {
-  width: 14px;
-  height: 14px;
-  margin-right: 6px;
+  width: rem(14px);
+  height: rem(14px);
+  margin-right: rem(6px);
 }
 
 .logo {
-  margin-bottom: 50px;
+  margin-bottom: rem(50px);
 }

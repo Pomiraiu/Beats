@@ -1,0 +1,27 @@
+.footer{
+    margin-left: 86;
+}
+
+.map{
+    display: block;
+    text-align: center;
+}
+
+.socials{
+    margin-right: 111px;
+    top: 26px;
+    right: 476px;
+    display: flex;
+}
+.socials__link{
+    display: block;
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
+.social__item{
+    display: inline-block;
+}
+.social__item:last-child{
+    margin-right: 30px;
+}
