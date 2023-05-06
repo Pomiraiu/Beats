@@ -22,9 +22,10 @@
     background: url(./../img/Elp.png) right center / 50% auto no-repeat;
 
     @include tablets{
-        background: none;
+
+            background: none;
+        }
     }
-}
 
 .hero__title-section{
     width: 46%; 
@@ -60,11 +61,8 @@
         justify-content: center;
         align-items: center;
         text-align: center;
-
-        &before{
-            content: "";
-            margin-bottom: rem(16px);
-            background: url(./../../img/Elp.png) center center / contain no-repeat;
+        &::before{
+            content: url("../../img/Elp.png");
         }
     }
 }

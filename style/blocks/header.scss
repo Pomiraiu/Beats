@@ -5,8 +5,11 @@
 }
 
 
-.phone-number .header__phone-number{
+.phone-number.header__phone-number{
     @include tablets{
+        display: none;
+    }
+    @include phones{
         display: none;
     }
 }

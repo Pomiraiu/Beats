@@ -1,10 +1,12 @@
 .footer{
-    margin-left: 86;
+    margin-left: 86px;
+    padding: 20px 0;
 }
 
 .map{
-    display: block;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 .socials{
