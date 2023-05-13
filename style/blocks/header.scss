@@ -17,6 +17,16 @@
 .menu{
     margin: 0 30px;
     padding-top: 5px;
+    display: flex;
+    align-items: center;
+
+    &--vertical {
+        display: flex;
+        flex-direction: column;
+        color: #fff;
+        font-size: 36px;
+        margin-right: 0;
+        
     @include tablets{
         display: none;
     }

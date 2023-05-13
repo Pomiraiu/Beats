@@ -7,11 +7,11 @@
     @include tablets{
         display: inline-flex;
     }
-}
+};
 
 .hamburger__line{
     display: block;
     background: $black;
     height: 4px;
     border-radius: 10px;
-}
+};

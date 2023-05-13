@@ -287,6 +287,12 @@ img {
 .menu {
   margin: 0 30px;
   padding-top: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 @media screen and (max-width: 768px) {
   .menu {
