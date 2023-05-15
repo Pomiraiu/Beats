@@ -194,7 +194,7 @@ img {
       -ms-flex-pack: justify;
           justify-content: space-between;
   height: 100%;
-  background: url(../../img/Elp.png) right center/50% auto no-repeat;
+  background: url(./../img/Elp.png) right center/50% auto no-repeat;
 }
 @media screen and (max-width: 768px) {
   .hero__container {
@@ -251,7 +251,7 @@ img {
     text-align: center;
   }
   .hero__title-section::before {
-    content: url("../../img/Elp.png");
+    content: url("./../img/Elp.png");
   }
 }
 
@@ -1144,7 +1144,7 @@ img {
 }
 
 .product--slider__arrow {
-  background: url("../../img/Arrow.png") center center no-repeat;
+  background: url("./../img/Arrow.png") center center no-repeat;
   background-size: contain;
   display: block;
   width: 0.8125rem;

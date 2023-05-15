@@ -31,6 +31,8 @@
     width: 46%; 
 }
 
+
+
 .hero__main-title{
     font-size: rem(48px);
     line-height: 1.1;
@@ -62,7 +64,7 @@
         align-items: center;
         text-align: center;
         &::before{
-            content: url("../../img/Elp.png");
+            content: url("./../img/Elp.png");
         }
     }
 }
