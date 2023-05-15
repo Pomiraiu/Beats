@@ -2,9 +2,9 @@
     position: relative;
     display: inline-block;
     cursor: pointer;
-  }
+}
   
-  .indicators__button {
+.indicators__button {
     width: rem(91px);
     height: rem(91px);
     background:#9A9A9A;
@@ -13,31 +13,28 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-  }
+}
   
-  .indicators__button-icon {
-    margin-bottom: rem(6px);
-  }
-  
-  .indicators__button-icon-elem {
+
+.indicators__button-icon-elem {
     z-index: 5;
     fill: #fff;
     width: rem(42px);
     height: rem(42px);
     display: block;
-  }
+}
   
 
-  .indicators {
+.indicators {
     &:hover {
       .indicators__dropdown {
         left: 100%;
         opacity: 1;
-      }
     }
   }
+}
   
-  .indicators__dropdown {
+.indicators__dropdown {
     color: #000;
     position: absolute;
     top: 0;
@@ -56,34 +53,34 @@
       width: rem(30px);
       left: rem(-29px);
     }
-  }
+}
   
-  .indicators__table {
+.indicators__table {
     width: 100%;
-  }
+}
   
-  .indicators__icon {
+.indicators__icon {
     width: rem(35px);
     height: rem(35px);
-  }
+}
   
-  .indicators__table-row {
+.indicators__table-row {
     border-bottom: rem(5px) solid transparent;
   
     &:last-child {
       border-bottom: 0;
     }
-  }
+}
   
-  .indicators__text-container {
+.indicators__text-container {
     padding-left: rem(10px);
-  }
+}
   
-  .indicators__table-cell {
+.indicators__table-cell {
     vertical-align: middle;
-  }
-  
-  .indicators__text {
+}
+
+.indicators__text {
     font-size: rem(16px);
     font-weight: bold;
-  }
+}

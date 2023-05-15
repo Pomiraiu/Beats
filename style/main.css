@@ -1199,10 +1199,6 @@ img {
           flex-direction: column;
 }
 
-.indicators__button-icon {
-  margin-bottom: 0.375rem;
-}
-
 .indicators__button-icon-elem {
   z-index: 5;
   fill: #fff;
