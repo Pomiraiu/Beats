@@ -26,6 +26,9 @@
         color: #fff;
         font-size: 36px;
         margin-right: 0;
+        @include phones{
+            font-size: 32px;
+        }
     }
     @include tablets{
         display: none;
