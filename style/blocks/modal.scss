@@ -2,19 +2,21 @@
     display: none;
     position: fixed;
     left: 0;
-    top: 0;
+    top: 50%;
     height: 100%;
     width: 100%;
     background: #313131;
 };
 
 .modal__container {
+    display: flex;
     margin: auto;
     background: #fff;
     padding: rem(35px) rem(60px);
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 };
 
 .input-error {

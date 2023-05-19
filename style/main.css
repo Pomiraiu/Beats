@@ -1527,18 +1527,19 @@ img {
   display: none;
   position: fixed;
   left: 0;
-  top: 0;
+  top: 50%;
   height: 100%;
   width: 100%;
   background: #313131;
 }
 
 .modal__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   margin: auto;
   background: #fff;
   padding: 2.1875rem 3.75rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -1547,6 +1548,9 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .input-error {

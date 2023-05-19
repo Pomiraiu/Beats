@@ -41,7 +41,7 @@ $(".form").submit((e) => {
         });
 
         request.done((data) => {
-            content.text(data.message);
+            content.text("Сообщение отправлено");
         });
 
         request.fail((data) => {
