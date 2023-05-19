@@ -1,5 +1,11 @@
+.products{
+  display: flex;
+}
+
 .products__item {
     padding-left: rem(65px);
+    flex-shrink: 0;
+    width: 100%;
   
     @include tablets {
       padding-left: 0;

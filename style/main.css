@@ -1301,8 +1301,17 @@ img {
           transform: rotate(-180deg);
 }
 
+.products {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .products__item {
   padding-left: 4.0625rem;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  width: 100%;
 }
 @media screen and (max-width: 768px) {
   .products__item {
