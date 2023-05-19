@@ -54,6 +54,7 @@ $(".form").submit((e) => {
             $.fancybox.open({
                 src: "#modal",
                 type: "inline",
+                display: "flex",
             });
         });
     }
