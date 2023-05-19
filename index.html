@@ -72,7 +72,7 @@
                     </div>
                 </div>
             </section>
-            <section class="section products-section">
+            <section data-section-id = "products" class="section products-section">
                 <div class="container">
                     <div class="products--slider">
                         <div class="product--slider__arrows">
@@ -650,19 +650,20 @@
                 <div class="container">
                     <h2 class="section__title order__title">Закажите доставку</h2>
                     <form class="form">
+                        <input type = "hidden" name="to" value ="pomiraiu@yandex.ru">
                         <div class="form__col">
                             <div class="form__row">
                                 <label class="form__block">
                                     <div class="form__title">
                                         Имя
                                     </div>
-                                    <input class="form__input">
+                                    <input type ="text" name="name" class="form__input">
                                 </label>
                                 <label class="form__block">
                                     <div class="form__title">
                                         Телефон
                                     </div>
-                                    <input class="form__input">
+                                    <input type ="text" name="phone" class="form__input">
                                 </label>
                             </div>
                             <div class="form__row">
@@ -670,7 +671,7 @@
                                     <div class="form__title">
                                         Улица
                                     </div>
-                                    <input class="form__input">
+                                    <input type="text" name="street" class="form__input">
                                 </label>
                             </div>
                             <div class="form__row">
@@ -678,25 +679,25 @@
                                     <div class="form__title">
                                         Дом
                                     </div>
-                                    <input class="form__input">
+                                    <input type="text" name="home" class="form__input">
                                 </label>
                                 <label class="form__block">
                                     <div class="form__title">
                                         Корпус
                                     </div>
-                                    <input class="form__input">
+                                    <input type="text" name="corps" class="form__input">
                                 </label>
                                 <label class="form__block">
                                     <div class="form__title">
                                         Квартира
                                     </div>
-                                    <input class="form__input">
+                                    <input type="text" name="appartment" class="form__input">
                                 </label>
                                 <label class="form__block">
                                     <div class="form__title">
                                         Этаж
                                     </div>
-                                    <input class="form__input">
+                                    <input type="text" name="floor" class="form__input">
                                 </label>
                             </div>
                         </div>
@@ -706,7 +707,7 @@
                                     <div class="form__title">
                                         Коментарий
                                     </div>
-                                    <textarea class="form__input form__input--textarea"></textarea>
+                                    <textarea name = "comment"class="form__input form__input--textarea"></textarea>
                                 </label>
                             </div>
                             <div class="form__controls">
@@ -729,8 +730,8 @@
                                 </label>
                             </div>
                             <div class="form__btns">
-                                <input type="submit" value="Заказать" class="btn">
-                                <input type="reset" value="Очистить" class="btn btn--invisible ">
+                                <input type="submit" value="Заказать" class="btn"/>
+                                <input type="reset" value="Очистить" class="btn btn--invisible "/>
                             </div>
                         </div>
                     </form>
@@ -842,15 +843,15 @@
           </div>
         </div>
       </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
     <script src="./Js/menu.js"></script>
     <script src="./Js/slider.js"></script>
     <script src="./Js/team.js"></script>
     <script src="./Js/reviews.js"></script>
     <script src="./Js/modal.js"></script>
-    <script src="./Js/submit.js"></script>
 
 </body>
 
